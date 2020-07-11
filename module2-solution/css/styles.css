@@ -1,0 +1,84 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-title{
+    font-size: 1.75em;
+}
+
+.main-title-holder{
+    text-align: center;
+    margin: 30px;
+}
+
+.section-title{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    font-size: 1.25em;
+    width: 120px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.row{
+    width: 100%;
+}
+
+.section-container{
+    position: relative;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 2%;
+    background-color: #999999;
+}
+.section-description{
+    margin-top: 30px;
+}
+
+.chicken{
+    background-color: #D59898;
+}
+
+.beef{
+    background-color: #C14543;
+    color: white;
+}
+
+.sushi{
+    background-color: #E5D198;
+}
+
+@media (min-width: 992px){
+    
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        float: left;
+        width: 50%;
+        align-items: center;
+    }
+    .col-md-12{
+        float: left;
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px){
+    .col-s-12{
+        float: left;
+        width: 100%;
+    }
+}
